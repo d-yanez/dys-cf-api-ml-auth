@@ -44,4 +44,18 @@ API_ML_CLIENT_ID=tu-client-id
 API_ML_CLIENT_SECRET=tu-client-secret
 ```
 
+## Deploy
+
+Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+```bash
+    gcloud functions deploy dys-cf-api-ml-auth \
+      --runtime nodejs18 \
+      --trigger-http \
+      --allow-unauthenticated \
+      --region=us-central1 \
+      --env-vars-file=.env.yaml \
+      --entry-point=app
+```
+
 
