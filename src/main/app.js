@@ -8,6 +8,8 @@ app.use(express.json());
 
 const meliController = new MeliController();
 app.post('/auth/token', (req, res) => meliController.getToken(req, res));
+app.post('/redirect/auth', (req, res) => meliController.redirectAuth(req, res));
+
 
 connectMongo();
 

@@ -58,4 +58,10 @@ Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
       --entry-point=app
 ```
 
+## Run Local:
 
+```bash
+  npm run start
+  
+    
+```
