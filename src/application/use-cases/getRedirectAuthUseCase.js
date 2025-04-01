@@ -23,7 +23,7 @@ class GetRedirectAuthUseCase {
   
       const url = 'https://api.mercadolibre.com/oauth/token';
       console.log(`Llamando a: ${url}`);
-  
+      console.log(`process.env.API_ML_REDIRECT_URI: ${process.env.API_ML_REDIRECT_URI}`);
       let response;
   
       try {
