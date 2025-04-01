@@ -62,6 +62,19 @@ Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
 ```bash
   npm run start
-  
+
     
+```
+## Autenticaion por Browser:
+
+```bash
+  https://auth.mercadolibre.com/authorization?response_type=code&client_id=TU_CLIENT_ID&redirect_uri=API_ML_REDIRECT_URI
+
+```
+## Link response by autenticacion by Broser with Code
+
+```bash
+  https://auth.mercadolibre.com/authorization?response_type=code&client_id=TU_CLIENT_ID&redirect_uri=API_ML_REDIRECT_URI
+
+
 ```
